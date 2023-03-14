@@ -9,6 +9,11 @@
       "name": "mysql.core",
       "type": "com.laoma.common.mysql.core.TransactionConfig",
       "sourceType": "com.laoma.common.mysql.core.TransactionConfig"
+    },
+    {
+      "name": "zk",
+      "type": "com.laoma.common.zookeeper.ZkConfig",
+      "sourceType": "com.laoma.common.zookeeper.ZkConfig"
     }
   ],
   "properties": [
@@ -46,6 +51,16 @@
       "name": "mysql.core.tx-scan-package",
       "type": "java.lang.String",
       "sourceType": "com.laoma.common.mysql.core.TransactionConfig"
+    },
+    {
+      "name": "zk.host",
+      "type": "java.lang.String",
+      "sourceType": "com.laoma.common.zookeeper.ZkConfig"
+    },
+    {
+      "name": "zk.sequence-path",
+      "type": "java.lang.String",
+      "sourceType": "com.laoma.common.zookeeper.ZkConfig"
     }
   ],
   "hints": []

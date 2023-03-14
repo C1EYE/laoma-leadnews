@@ -1,6 +1,6 @@
-package com.laoma.common.zk.sequence;
+package com.laoma.common.zookeeper.sequence;
 
-import com.laoma.common.zk.ZookeeperClient;
+import com.laoma.common.zookeeper.ZookeeperClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

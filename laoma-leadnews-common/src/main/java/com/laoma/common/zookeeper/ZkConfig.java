@@ -1,4 +1,4 @@
-package com.laoma.common.zk;
+package com.laoma.common.zookeeper;
 
 import lombok.Getter;
 import lombok.Setter;

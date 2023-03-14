@@ -1,8 +1,8 @@
-package com.laoma.common.zk;
+package com.laoma.common.zookeeper;
 
 import com.google.common.collect.Maps;
-import com.laoma.common.zk.sequence.ZkSequence;
-import com.laoma.common.zk.sequence.ZkSequenceEnum;
+import com.laoma.common.zookeeper.sequence.ZkSequence;
+import com.laoma.common.zookeeper.sequence.ZkSequenceEnum;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.curator.framework.CuratorFramework;

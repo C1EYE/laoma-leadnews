@@ -1,4 +1,4 @@
-package com.laoma.common.zk.sequence;
+package com.laoma.common.zookeeper.sequence;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

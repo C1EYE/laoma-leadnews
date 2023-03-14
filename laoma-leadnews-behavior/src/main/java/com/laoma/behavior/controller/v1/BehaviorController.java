@@ -1,7 +1,7 @@
 package com.laoma.behavior.controller.v1;
 
-import com.laoma.article.apis.BehaviorControllerApi;
 import com.laoma.behavior.service.AppShowBehaviorService;
+import com.laoma.article.apis.BehaviorControllerApi;
 import com.laoma.model.behavior.dtos.ShowBehaviorDto;
 import com.laoma.model.common.dtos.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;

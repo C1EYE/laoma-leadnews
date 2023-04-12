@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="laoma-leadnews-apis" />
-        <module name="laoma-leadnews-behavior" />
         <module name="laoma-leadnews-utils" />
+        <module name="service-mycat" />
+        <module name="laoma-leadnews-model" />
+        <module name="laoma-leadnews-behavior" />
         <module name="laoma-leadnews-common" />
         <module name="laoma-leadnews-article" />
-        <module name="laoma-leadnews-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="laoma-leadnews-common" options="-parameters" />
       <module name="laoma-leadnews-model" options="-parameters" />
       <module name="laoma-leadnews-utils" options="-parameters" />
+      <module name="service-mycat" options="-parameters" />
     </option>
   </component>
 </project>
